@@ -1,4 +1,4 @@
-NSObject-AssociatedDictionary
+NSObject+AssociatedDictionary
 =============================
 
 A light-weight Objective-C category that adds a mutable dictionary for arbitrary, ad-hoc properties that can be associated with any object. The dictionary, called ``properties``, is created just-in-time (the first time it's accessed).
