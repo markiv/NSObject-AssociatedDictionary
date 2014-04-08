@@ -25,7 +25,7 @@ You can even set properties like these directly in Xcode's interface builder, us
 
 ![](https://raw.githubusercontent.com/markiv/NSObject-AssociatedDictionary/master/screenshot1.png)
 
-If `NSObject+AssociatedDictionary.m` is in your project, the UI loader will automatically set the properties for you. Without any additional initialization code, you'll be able to access these like this:
+If `NSObject+AssociatedDictionary.m` is in your project, the UI loader will automatically set the properties for you. Without any additional initialization code, you'll be able to access them like this:
 
 ```objc
 BOOL reauired = [accountField.properties[@"required"] boolValue];
