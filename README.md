@@ -12,6 +12,8 @@ self.properties[@"someKey"] = someObject;
 Ever wished you could attach an object to a standard class _without subclassing_? Now you can:
 
 ```objc
+#import <NSObject+AssociatedDictionary.h>
+:
 UIButton *deleteButton;
 UITextField *accountField;
 :
@@ -36,7 +38,3 @@ Install via [Cocoapods](http://cocoapods.org/). Here's a sample `Podfile`:
     pod 'NSObject+AssociatedDictionary'
 
 Alternatively, just drop the two files (`NSObject+AssociatedDictionary.m` and `NSObject+AssociatedDictionary.h`) into your project tree.
-
-Don't forget to import the header:
-
-    #import <NSObject+AssociatedDictionary.h>
