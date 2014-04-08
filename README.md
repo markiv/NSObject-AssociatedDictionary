@@ -11,10 +11,10 @@ Ever wished you could do this without subclassing? Now you can:
 
     myButton.properties[@"confirmationMessage"] = @"Are you sure you want to do this?";
 
-   Installation
-   ---
-   Install via [Cocoapods](http://cocoapods.org/). Here's a sample ``Podfile``:
+## Installation
+
+Install via [Cocoapods](http://cocoapods.org/). Here's a sample ``Podfile``:
 
     pod 'NSObject+AssociatedDictionary'
 
-Alternatively, just copy the two files into your project tree.
+Alternatively, just drop the two files into your project tree.
