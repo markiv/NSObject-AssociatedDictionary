@@ -21,9 +21,9 @@ deleteButton.properties[@"confirmationMessage"] = @"Are you sure you want to do 
 accountField.properties[@"inputMask"] = @"99-99999-9";
 ```
 
-You can even set properties like these directly in Xcode's interface builder, using keypaths and dot notation:
+You can even set properties like these directly in Xcode's interface builder, using key paths and dot notation:
 
-![](https://raw.githubusercontent.com/markiv/NSObject-AssociatedDictionary/master/screenshot1.png)
+![Xcode screenshot](https://raw.githubusercontent.com/markiv/NSObject-AssociatedDictionary/master/screenshot1.png)
 
 If `NSObject+AssociatedDictionary.m` is in your project, the UI loader will automatically set the properties for you. Without any additional initialization code, you'll be able to access them like this:
 
