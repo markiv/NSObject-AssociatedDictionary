@@ -23,7 +23,7 @@ accountField.properties[@"inputMask"] = @"99-99999-9";
 
 You can even set properties like these directly in Xcode's interface builder, using key paths and dot notation:
 
-![Xcode screenshot](https://raw.githubusercontent.com/markiv/NSObject-AssociatedDictionary/master/screenshot1.png)
+<img src="screenshot1.png" width="50%" />
 
 If `NSObject+AssociatedDictionary.m` is in your project, the UI loader will automatically set the properties for you. Without any additional initialization code, you'll be able to access them like this:
 
