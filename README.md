@@ -19,6 +19,7 @@ UITextField *accountField;
 :
 deleteButton.properties[@"confirmationMessage"] = @"Are you sure you want to do this?";
 accountField.properties[@"inputMask"] = @"99-99999-9";
+accountField.properties[@"required"]  = @YES;
 ```
 
 You can even set properties like these directly in Xcode's interface builder, using key paths and dot notation:
