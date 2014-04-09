@@ -41,3 +41,15 @@ Install via [Cocoapods](http://cocoapods.org/). Here's a sample `Podfile`:
     pod 'NSObject+AssociatedDictionary'
 
 Alternatively, just drop the two files (`NSObject+AssociatedDictionary.m` and `NSObject+AssociatedDictionary.h`) into your project tree.
+
+## Contact
+
+Vikram Kriplaney
+
+- http://github.com/markiv
+- http://twitter.com/krips
+- vikram@iphonso.com
+
+## License
+
+NSObject+AssociatedDictionary is available under the MIT license. See the LICENSE file for more info.
