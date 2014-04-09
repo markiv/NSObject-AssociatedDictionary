@@ -31,6 +31,7 @@ If `NSObject+AssociatedDictionary.m` is in your project, the UI loader will auto
 ```objc
 if (!accountField.hasText && [accountField.properties[@"required"] boolValue]) {
     accountField.backgroundColor = accountField.properties[@"alertColor"];
+    [self alertString:accountField.properties[@"alertMessage"]];
 }
 ```
 
