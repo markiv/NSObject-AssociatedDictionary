@@ -6,7 +6,7 @@ A light-weight Objective-C category that adds a mutable dictionary for arbitrary
 For any object, you can now set an ad-hoc property without prior declaration:
 
 ```objc
-self.properties[@"someKey"] = someObject;
+someObject.properties[@"someKey"] = someOtherObject;
 ```
 
 Ever wished you could attach an object to a standard class _without subclassing_? Now you can:
