@@ -29,8 +29,7 @@ You can even set properties like these directly in Xcode's interface builder, us
 If `NSObject+AssociatedDictionary.m` is in your project, the UI loader will automatically set the properties for you. Without any additional initialization code, you'll be able to access them like this:
 
 ```objc
-BOOL required = [accountField.properties[@"required"] boolValue];
-if (required && !accountField.hasText) {
+if (!accountField.hasText && [accountField.properties[@"required"] boolValue]) {
     accountField.backgroundColor = accountField.properties[@"alertColor"];
 }
 ```
