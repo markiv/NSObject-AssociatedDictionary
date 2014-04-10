@@ -11,7 +11,7 @@
 @implementation NSObject (AssociatedDictionary)
 @dynamic properties;
 
-static const char *kAssociatedDictionaryKey = "AssociatedDictionary";
+static const void *kAssociatedDictionaryKey = &kAssociatedDictionaryKey;
 
 - (NSMutableDictionary *)properties
 {
